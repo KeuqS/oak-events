@@ -183,3 +183,7 @@ Tests need neither a camera nor `depthai`. See `CONTRIBUTING.md`.
 ## License
 
 MIT. See `LICENSE`.
+
+---
+
+oak-events is an independent community project, not affiliated with or endorsed by Luxonis. OAK and DepthAI are Luxonis trademarks, used here only to say which hardware and SDK the tool works with.
