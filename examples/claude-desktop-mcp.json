@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "oak-events": {
+      "command": "oak-events",
+      "args": ["mcp", "--events-dir", "~/.local/share/oak-events/events"]
+    }
+  }
+}
