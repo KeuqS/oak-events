@@ -48,7 +48,8 @@ and keep them local.
 
 | Device | Status |
 | --- | --- |
-| RVC2: OAK-D (USB), OAK-D PoE | Tested |
+| RVC2: OAK-D PoE | Tested live (DepthAI 3.11, bootloader 0.0.29, macOS arm64) |
+| RVC2: OAK-D (USB) | Expected to work; untested, reports welcome |
 | RVC4 (e.g. OAK 4) | Untested; reports welcome |
 
 Requires DepthAI v3 (`depthai>=3.9`) and Python 3.10+.
@@ -159,7 +160,7 @@ explaining why: `not_found`, `error`, `pipeline_stopped`.
 - **Bootloader:** RVC2 PoE devices with a bootloader older than **0.0.29** can
   fail discovery; 0.0.29 fixes it. `oak-events doctor` shows the version when
   the device is not in use.
-- **The device needs ~30 s to free up** after a previous host disconnects.
+- **The device can take from ~30 s to a few minutes to free up** after a previous host disconnects (2.5 min observed on an OAK-D PoE). `oak-events run` keeps retrying discovery for up to 4 minutes.
   `run` retries discovery for up to 90 s and asks DepthAI to reconnect up to 5
   times before giving up.
 - **macOS launchd:** observed, cause not proven: under a launchd job the device

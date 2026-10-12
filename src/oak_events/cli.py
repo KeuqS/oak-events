@@ -95,7 +95,7 @@ def cmd_doctor(args: argparse.Namespace) -> int:
             d["bootloader_advice"] = bootloader_advice(d.get("bootloader"))
         report["devices"] = devices
         if not devices:
-            report["hint"] = ("no devices visible. PoE cameras can take ~30 s to free up after another host "
+            report["hint"] = ("no devices visible. PoE cameras can take 30 s to a few minutes to free up after another host "
                               "exits; on macOS the process also needs local-network permission.")
     if args.json:
         print(json.dumps(report, indent=2))

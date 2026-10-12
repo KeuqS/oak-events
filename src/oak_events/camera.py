@@ -21,7 +21,7 @@ from .sink import JsonlSink
 
 INSTALL_HINT = "depthai is not installed. Install the camera extra: pip install 'oak-events[camera]'"
 
-DISCOVERY_TIMEOUT_S = 90.0  # a PoE camera can need ~30 s to free up after a previous host exits
+DISCOVERY_TIMEOUT_S = 240.0  # a PoE camera can need 30 s to a few minutes to free up after a previous host exits
 DISCOVERY_POLL_S = 5.0
 MAX_RECONNECT_ATTEMPTS = 5
 
