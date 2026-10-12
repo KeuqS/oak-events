@@ -58,7 +58,7 @@ Requires DepthAI v3 (`depthai>=3.9`) and Python 3.10+.
 
 ```bash
 # Not on PyPI yet: install the v0.1.0 release from GitHub
-pip install 'oak-events[camera,mcp] @ git+https://github.com/issaquahd/oak-events@v0.1.0'
+pip install 'oak-events[camera,mcp] @ git+https://github.com/cloudlabworks/oak-events@v0.1.0'
 
 # 1. Check the setup (works without a camera or depthai installed)
 oak-events doctor
@@ -189,4 +189,4 @@ MIT. See `LICENSE`.
 
 oak-events is an independent community project, not affiliated with or endorsed by Luxonis. OAK and DepthAI are Luxonis trademarks, used here only to say which hardware and SDK the tool works with.
 
-<!-- mcp-name: io.github.issaquahd/oak-events -->
+<!-- mcp-name: io.github.cloudlabworks/oak-events -->
