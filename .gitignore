@@ -1,0 +1,29 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local run output and models (never commit camera output or model archives)
+/events/
+/models/
+*.tar.xz
+*.blob
+
+# oak-events never writes pictures; keep any stray ones out of git too
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.npy
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
