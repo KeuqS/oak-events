@@ -4,6 +4,15 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [0.1.1] - 2026-10-12
+
+### Changed
+
+- Repository moved to [cloudlabworks/oak-events](https://github.com/cloudlabworks/oak-events);
+  the MCP registry name is now `io.github.cloudlabworks/oak-events`. Old
+  `issaquahd/oak-events` links redirect.
+- First release published to PyPI (trusted publishing).
+
 ## [0.1.0] - 2026-10-11
 
 ### Added
