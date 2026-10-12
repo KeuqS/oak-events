@@ -57,7 +57,8 @@ Requires DepthAI v3 (`depthai>=3.9`) and Python 3.10+.
 ## Quickstart
 
 ```bash
-pip install 'oak-events[camera,mcp]'
+# Not on PyPI yet: install the v0.1.0 release from GitHub
+pip install 'oak-events[camera,mcp] @ git+https://github.com/issaquahd/oak-events@v0.1.0'
 
 # 1. Check the setup (works without a camera or depthai installed)
 oak-events doctor
